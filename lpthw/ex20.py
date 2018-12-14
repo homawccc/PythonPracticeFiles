@@ -13,6 +13,7 @@ def rewind(f):
 
 def print_a_line(line_count, f):
     print(line_count, f.readline(), end = "")
+# end="" after print statement removes default \n
 
 #line_count and f are args that represent the line count and file    
 

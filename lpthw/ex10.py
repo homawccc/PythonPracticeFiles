@@ -23,6 +23,9 @@ fcars = ["Saab", "Volvo", "BMW", "Honda", "Toyota"]
 dcars = ["Chevy", "Ford", "Jeep", "Chysler", "Dodge"]
 cars = [fcars, dcars]
 
-fcars.append("Hyundai")
+# fcars.insert(0, "Hyundai") this adds it to beginining
+fcars.append("Hyundai") # appends to end of list
+# del fcars[3] removes item from list by element number
+# fcars.remove("Toyota") removes item by value
 print(cars)
 print(len(fcars))
